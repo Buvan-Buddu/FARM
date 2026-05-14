@@ -4,6 +4,7 @@ import { OrganicShowcase } from "@/components/OrganicShowcase";
 import { VarietiesSection } from "@/components/VarietiesSection";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 import { Gallery } from "@/components/Gallery";
+import { FeedbackSection } from "@/components/FeedbackSection";
 import { ContactCTA } from "@/components/ContactCTA";
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
       <VarietiesSection />
       <WhyChooseUs />
       <Gallery />
+      <FeedbackSection />
       <ContactCTA />
     </>
   );
