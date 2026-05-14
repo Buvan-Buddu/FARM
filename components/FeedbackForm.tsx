@@ -36,7 +36,7 @@ export function FeedbackForm() {
     <div className="glass-panel rounded-3xl p-6 md:p-8 shadow-glass border border-white/60 h-full">
       <h2 className="font-display text-2xl text-leaf-900">Share Your Feedback</h2>
       <p className="mt-2 text-sm text-leaf-600">
-        We'd love to hear about your experience with our mangoes. Your feedback helps us improve!
+       
       </p>
       <AnimatePresence mode="wait">
         {submitted ? (

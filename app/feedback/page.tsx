@@ -11,15 +11,9 @@ export default function FeedbackPage() {
     <main className="min-h-screen pt-32 pb-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <MotionSection className="text-center max-w-2xl mx-auto mb-14">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-mango-700 mb-3">
-            Your Voice Matters
-          </p>
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl text-leaf-950 text-balance">
             Share Your Feedback
           </h1>
-          <p className="mt-6 text-lg text-leaf-700/80 leading-relaxed">
-            We're committed to delivering the best organic mangoes. Your feedback helps us understand how we're doing and how we can improve even further.
-          </p>
         </MotionSection>
 
         <MotionSection delay={0.1} className="max-w-2xl mx-auto mb-16">
