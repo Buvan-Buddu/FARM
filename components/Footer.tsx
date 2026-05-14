@@ -88,7 +88,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-mango-200/50 pt-8 text-sm text-leaf-600">
-          <p>© {year} {SITE.name}. Crafted with care in India.</p>
+          <p>© {year} {SITE.name}.</p>
           <p className="text-leaf-500">Farm fresh · Seasonal harvest</p>
         </div>
       </div>

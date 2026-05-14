@@ -112,30 +112,7 @@ export function Hero() {
               Call Now
             </a>
           </motion.div>
-          <motion.dl
-            className="mt-12 grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.45 }}
-          >
-            {[
-              { k: "Organic", v: "Certified ethos" },
-              { k: "Handpicked", v: "Peak ripeness" },
-              { k: "Delivery", v: "Pan-India*" },
-            ].map((item) => (
-              <div
-                key={item.k}
-                className="rounded-2xl bg-white/50 backdrop-blur-sm border border-white/60 px-3 py-3 text-center shadow-sm"
-              >
-                <dt className="text-xs uppercase tracking-wider text-leaf-600">
-                  {item.k}
-                </dt>
-                <dd className="mt-1 font-display text-lg text-leaf-900">
-                  {item.v}
-                </dd>
-              </div>
-            ))}
-          </motion.dl>
+
         </motion.div>
 
         <motion.div

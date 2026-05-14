@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { MotionSection } from "@/components/MotionSection";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { Check } from "lucide-react";
 
 const points = [
@@ -39,24 +38,7 @@ export function OrganicShowcase() {
               </li>
             ))}
           </ul>
-          <div className="mt-10 flex flex-wrap gap-8">
-            <div>
-              <AnimatedCounter
-                value={500}
-                suffix="+"
-                className="font-display text-4xl text-mango-700"
-              />
-              <p className="text-sm text-leaf-600 mt-1">Happy households</p>
-            </div>
-            <div>
-              <AnimatedCounter
-                value={12}
-                suffix=" yrs"
-                className="font-display text-4xl text-leaf-700"
-              />
-              <p className="text-sm text-leaf-600 mt-1">Orchard heritage</p>
-            </div>
-          </div>
+
         </MotionSection>
         <MotionSection delay={0.1} className="order-1 lg:order-2">
           <div className="relative aspect-[5/6] rounded-[2rem] overflow-hidden shadow-card ring-1 ring-mango-200/50">
